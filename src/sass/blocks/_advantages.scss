@@ -1,0 +1,32 @@
+.advantages{
+    padding: 69px 0 78px 0;
+    background-color: #f6f6f6;
+    &__icons{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__icon{
+        max-width: 247px;
+        img{
+            display: block;
+            margin: 65px auto 38px;
+        }
+    }
+    &__title{
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__deskr{
+        color: #0d0d0d;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+        span{
+            color: #ff0000;
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
+    }
+}
